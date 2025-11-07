@@ -18553,7 +18553,7 @@ h6 {
   display: inline-block;
   text-decoration: none;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   position: relative;
   font-size: 14px;
   word-spacing: 2px;
@@ -18608,7 +18608,7 @@ h6 {
 }
 
 .btn-2 {
-  padding: 10px 26px;
+  padding: 15px 26px;
   background-color: transparent;
   color: #fff;
 }
@@ -18625,23 +18625,29 @@ h6 {
   right: 0;
   top: 0;
   z-index: -2;
-  border-radius: 30px;
-  border: 2px solid hsla(0, 0%, 100%, 0.7);
+  border-radius: 5px;
+  border: 1.5px solid hsla(0, 0%, 100%, 0.7);
 }
 
-.btn-3 {
-  padding: 9px 25px;
-  background-color: #0056b3;
+.btn-4 {
+  padding: 15px 26px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000 !important;
+}
+
+.btn-4:hover {
   color: #fff;
-  border: 1px solid #0056b3;
 }
 
-.btn-3:hover {
-  color: #0056b3;
+.btn-4.back-f6f6f6:before {
+  background-color: #000;
 }
 
-.btn-3.back-f6f6f6:before {
-  background-color: #f6f6f6;
+.btn-4:before {
+  background-color: #000;
+  
+  
 }
 
 @-webkit-keyframes bouncedelay {
@@ -18942,6 +18948,7 @@ h6 {
   background-position: 50%;
   background-repeat: no-repeat;
   height: 100vh;
+  text-align: left !important;
 }
 
 .welcome-area .overlay-bg-70 {
@@ -18950,6 +18957,7 @@ h6 {
 
 .welcome-area .welcome-text p {
   margin: 0 22%;
+  text-align: left !important;
 }
 
 .welcome-area.text-left .welcome-text p {
@@ -19172,7 +19180,7 @@ h6 {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.75);
   background-blend-mode: overlay;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   -webkit-clip-path: none;
   clip-path: none;
@@ -19181,11 +19189,16 @@ h6 {
 .welcome-particles .welcome-text {
 
   width: 100%;
+  padding: 0% !important;
+  margin: 0% !important;
+  
 
 }
 
 .welcome-particles .welcome-text p {
-  margin: 0 30%;
+  width: 400px;
+  
+ 
 }
 
 .features-area .mt-25px:after {
