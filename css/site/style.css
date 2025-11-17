@@ -5,7 +5,9 @@
         position: absolute;
         left: 8%;
         bottom: 10vh;
+        
         padding: 0;
+
     }
 
 
@@ -25,9 +27,12 @@
         position: absolute !important;
         left: 90% !important;
         bottom: 30vh !important;
+        
         display: flex;
         gap: 15px;
         flex-direction: column; 
+        
+
     }
 
 
@@ -45,4 +50,15 @@
     background: #555 !important;
     outline: 3px solid #555 !important;      /* borda externa */
     outline-offset: 6px !important;          /* espaço entre o centro e a borda */
+    }
+
+
+    @media (max-width: 767px ){
+
+          .swiper {
+
+            width: 100%;
+            left: 8%;
+          }
+
     }
