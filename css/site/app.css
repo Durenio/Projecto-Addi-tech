@@ -588,7 +588,7 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@ (min-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -19925,7 +19925,7 @@ h6 {
   .welcome-particles .welcome-text p,
   .welcome-slider p,
   .welcome-video .welcome-text p {
-    margin: 0 10%;
+    margin: 0 0;
   }
 
   .image-back-left,
